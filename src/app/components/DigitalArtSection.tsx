@@ -34,12 +34,12 @@ export function DigitalArtSection() {
                 letterSpacing: '-0.5px'
               }}
             >
-              디지털 수채화
+              수채화 드로잉
             </h3>
             <div className="rounded-3xl overflow-hidden">
               <img 
                 src={imgVideo112Mp4} 
-                alt="디지털 수채화 영상" 
+                alt="수채화 드로잉 영상" 
                 className="w-full h-auto"
               />
             </div>
@@ -55,12 +55,12 @@ export function DigitalArtSection() {
                 letterSpacing: '-0.5px'
               }}
             >
-              유화드로잉
+              유화 드로잉
             </h3>
             <div className="rounded-3xl overflow-hidden">
               <img 
                 src={imgMainVideoMp4} 
-                alt="유화드로잉 영상" 
+                alt="유화 드로잉 영상" 
                 className="w-full h-auto"
               />
             </div>

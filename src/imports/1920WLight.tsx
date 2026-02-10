@@ -155,7 +155,7 @@ function Container10() {
   return (
     <div className="content-stretch flex flex-col items-center mb-[-3px] relative shrink-0 w-full" data-name="Container">
       <div className="flex flex-col font-['Poppins:Bold','Noto_Sans_KR:Bold',sans-serif] justify-center leading-[0] relative shrink-0 text-[#141414] text-[24px] text-center text-nowrap tracking-[-0.5px]" style={{ fontVariationSettings: "'wght' 700" }}>
-        <p className="leading-[32px]">디지털 수채화</p>
+        <p className="leading-[32px]">수채화 드로잉</p>
       </div>
     </div>
   );
@@ -192,7 +192,7 @@ function Container13() {
   return (
     <div className="content-stretch flex flex-col items-center mb-[-3px] relative shrink-0 w-full" data-name="Container">
       <div className="flex flex-col font-['Poppins:Bold','Noto_Sans_KR:Bold',sans-serif] justify-center leading-[0] relative shrink-0 text-[#141414] text-[24px] text-center text-nowrap tracking-[-0.5px]" style={{ fontVariationSettings: "'wght' 700" }}>
-        <p className="leading-[32px]">유화드로잉</p>
+        <p className="leading-[32px]">유화 드로잉</p>
       </div>
     </div>
   );
