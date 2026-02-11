@@ -1,6 +1,3 @@
-import imgVideo112Mp4 from "figma:asset/ee8dae3700483d526babaa51c609d369eb48e9e7.png";
-import imgMainVideoMp4 from "figma:asset/d9a6f1d57d8d716e43d1344fe02a74ac41b18e3a.png";
-
 export function DigitalArtSection() {
   return (
     <section className="py-12 md:py-20 bg-white">
@@ -34,12 +31,15 @@ export function DigitalArtSection() {
                 letterSpacing: '-0.5px'
               }}
             >
-              수채화 드로잉
+              디지털 수채화 영상
             </h3>
             <div className="rounded-3xl overflow-hidden">
-              <img 
-                src={imgVideo112Mp4} 
-                alt="수채화 드로잉 영상" 
+              <video 
+                src="/digital-watercolor.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
                 className="w-full h-auto"
               />
             </div>
@@ -55,12 +55,15 @@ export function DigitalArtSection() {
                 letterSpacing: '-0.5px'
               }}
             >
-              유화 드로잉
+              유화드로잉 영상
             </h3>
             <div className="rounded-3xl overflow-hidden">
-              <img 
-                src={imgMainVideoMp4} 
-                alt="유화 드로잉 영상" 
+              <video 
+                src="/oil-painting.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
                 className="w-full h-auto"
               />
             </div>
